@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#home{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse; 
+    background-image: url("https://img.freepik.com/premium-photo/natural-marble-pattern-background_1258-22159.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+h2{
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+.s1
+{
+    width: 30%;
+    margin: 10px;
+}
+.s1 img{
+    width: 400px;
+    height: 350px;
+}
+.s2{
+    width: 70%;
+    font-size: 20px;
+    margin-right:50px;
+    margin-top: 10px;
+}
+#carrier{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+    background-image: url("https://img.freepik.com/premium-photo/natural-marble-pattern-background_1258-22159.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+}
+.s3{
+    width: 50%;
+    margin-top: 10px;
+}
+.s3 img{
+    width: 500px;
+    height: 550px;
+}
+.s4{
+    width: 50%;
+    margin-top: 10px;
+}
+#achievements
+{
+    display: flex;
+    flex-direction: initial;
+    width: 100%;
+    background-image: url("https://img.freepik.com/premium-photo/natural-marble-pattern-background_1258-22159.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.s5{
+    width: 60%;
+}
+.s6{
+    width: 40%;
+}
+#awards-trophies{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px;
+    background-image: url("https://img.freepik.com/premium-photo/natural-marble-pattern-background_1258-22159.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid black;
+}
+#awards-trophies img {
+    width: 300px;
+    height: 200px;
+    
+}
+#about-us{
+    display: flex;
+    background-image: url("https://img.freepik.com/premium-photo/natural-marble-pattern-background_1258-22159.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'PT Serif', serif;
+}
+h3{
+    font-size: 25px;
+}
+.s7{
+    width: 50%;
+    color: white;
+}
+.s7 img{
+   padding:10px;
+   width: 50px;
+   height: 50px;
+   cursor: pointer;
+}
+.s8{
+    width: 50%;
+    text-decoration: underline;
+}
+ul li {
+    list-style-type: none;
+}
+ul li a{
+    color: white;
+}
+.footer-cols{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
